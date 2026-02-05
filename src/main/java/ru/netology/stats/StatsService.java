@@ -5,8 +5,8 @@ import java.util.Arrays;
 
 public class StatsService {
 
-    public int sumSales(long[] sales) {
-        int sumSales = 0;
+    public long sumSales(long[] sales) {
+        long sumSales = 0;
 
         for (int i = 0; i < sales.length; i++) {
             sumSales += sales[i];
